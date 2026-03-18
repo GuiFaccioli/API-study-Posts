@@ -45,11 +45,36 @@
 
 .Header {
   background-color: aliceblue;
-  height: 40vh;
+  height: 10vh;
   width: 200vh;
   border-radius: 100px;
 }
 
 .h1Header {
   text-align: center;
+}
+
+/* Container que centraliza o campo */
+.headerPesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+/* Campo de pesquisa */
+.campoDePesquisa {
+  .campoDePesquisa {
+    width: 100%;
+    max-width: 500px;
+    height: 48px;
+    padding: 0 20px 0 45px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
 }
