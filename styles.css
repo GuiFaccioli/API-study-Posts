@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap; /* quebra para a linha de baixo quando necessário */
   /*justify-content: center; centraliza os cards */
-  gap: 20px; /* espaço entre os cards */
+  gap: 20px; /* espaço entre os crds */
   padding: 20px;
 }
 
@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(75, 75, 129);
+  background-color: rgb(241, 234, 240);
   padding: 20px;
   border-radius: 10px;
   width: 300px; /* aumentei um pouco para o body caber melhor */
@@ -22,21 +22,21 @@
 .idCard {
   font-size: 36px;
   font-weight: bold;
-  color: white;
+  color: rgb(230, 162, 162);
   margin: 0;
 }
 
 .titleCard {
   font-size: 18px;
   font-weight: bold; /* destaque para o título */
-  color: white;
+  color: rgb(173, 65, 65);
   text-align: center;
   margin: 0;
 }
 
 .bodyCard {
   font-size: 13px; /* menor — texto longo */
-  color: rgba(255, 255, 255, 0.8); /* branco levemente transparente */
+  color: rgba(102, 4, 4, 0.8); /* branco levemente transparente */
   text-align: center;
   line-height: 1.6; /* espaçamento entre linhas para leitura */
   margin: 0;
@@ -44,7 +44,7 @@
 }
 
 .Header {
-  background-color: aliceblue;
+  background-color: rgb(233, 159, 162);
   height: 10vh;
   width: 200vh;
   border-radius: 100px;
