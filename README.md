@@ -1,2 +1,5 @@
 # API-study-Posts
-Pequeno estudo de: api, await, async, dom, css, criacao elemento html em js, 
+Branch: Master
+
+
+Deploy: https://100posts.netlify.app/
